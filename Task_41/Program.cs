@@ -1,7 +1,7 @@
 ﻿int i = 0;
 bool a = true;
 string word = "";
-while (a = true)
+while (a == true)
 {
     Console.Write("Введите число, если хотетите прекратить введите слово 'end': ");
     word = Console.ReadLine();
@@ -25,9 +25,9 @@ if(i == 1)
 }
 if(i > 1 && i < 5)
 {
-    Console.Write($"Вы ввели только {i} числа больше нуля");
+    Console.Write($"Вы ввели {i} числа больше нуля");
 }
 if(i > 4)
 {
-    Console.Write($"Вы ввели только {i} чисел больше нуля");
+    Console.Write($"Вы ввели {i} чисел больше нуля");
 }
